@@ -83,7 +83,6 @@ def main(args, outputdir):
     system shell arguments are handled there.
 
     """
-
     print("\nPost-processing (2+)");
     if not os.path.exists(outputdir):
         os.makedirs(outputdir)
